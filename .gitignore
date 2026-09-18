@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data artifacts (keep locally; preserve directory .gitkeep files)
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*.csv
+
+data/quarantine/*
+!data/quarantine/.gitkeep
+
+output/value_conflict_diagnostic.csv
+output/value_conflict_summary.csv
+output/duplicate_diagnostic.csv
+output/entity_resolution_anomalies.csv
